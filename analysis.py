@@ -20,7 +20,7 @@ np.exp(-log_pv.sum()/num_test_docs)
 # Average Test Perplexity for each  heldout documents
 np.exp(-log_pv)
 
-# Pernalized Perplexity
+# Penalized Perplexity
 K = len(vocab)
 F = 50
 M = num_authors
