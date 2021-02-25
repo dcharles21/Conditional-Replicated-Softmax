@@ -1,4 +1,4 @@
-# Preprocess Documents
+# Preprocess Documents and Metadata
 
 # Load Libraries
 import csv
