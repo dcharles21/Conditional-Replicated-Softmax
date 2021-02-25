@@ -235,5 +235,4 @@ if __name__ == '__main__':
     logZ = np.zeros(num_test_docs)
 
     for i in range(0, num_test_docs):
-        print(i)
         logZ[i] = AIS_cRSM(data = v, document = i, M = 100, Z = Z_test, step = 1000, units = 50)
